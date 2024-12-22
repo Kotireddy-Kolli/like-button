@@ -1,0 +1,17 @@
+
+.fav-btn{
+    --color-red: red;
+    --color-white: white;
+}
+.liked{
+    color: var(--color-red);
+}
+.liked:hover{
+    color: var(--color-white);
+}
+.like{
+    color: var(--color-white);
+}
+.like:hover{
+    color: var(--color-red);
+}
